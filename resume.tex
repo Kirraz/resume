@@ -1,0 +1,159 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Alex Levi Usselman}}\\
+	Medford, OR $\cdot$ svytry123@gmail.com $\cdot$ 5416210643\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Mitchell High School}\hfill Colorado Springs, CO\\
+Air Force Junior Reserve Officer Training Corps \textit{GPA: 2.7} \hfill 2013 - 2014\\
+\vspace{2mm}
+\textbf{Homeschool}\hfill Medford, OR\\
+High School Diploma Computer Science \textit{GPA: 3.1} \hfill 2014 - 2017\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Expierence}
+\vspace{1mm}
+
+\textbf{Lizarraga Landscaping} \hfill Medford, OR\\
+\textit{Landscaper / Hardscaper} \hfill 2014 - 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Landscape and manage private grounds.
+	\item Lay concrete brick and, tile.
+	\item Run irrigation and drip lines on customer gardens and, lawns.
+	\item Trim and, maintain bushs, hedges, flowers, and trees.
+\end{itemize}
+\textbf{Personnel Source} \hfill Eagle Point, OR\\
+\textit{City of Eagle Point Public Works Temp} \hfill March, 2017 - August, 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Maintain parks grass and, removal of trash from the grounds.
+	\item Working in teams to excavate and, fix underground water mains.
+	\item Properly setting up playground equipment.
+	\item Driving, maintaining, and using; city vehicles and equipment.
+\end{itemize}
+\textbf{Bear Creek Lock and Safe} \hfill Medford, OR\\
+\textit{Locksmith} \hfill March, 2018 - July, 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Rekeying and, masterkeying private and, commerical locks.
+	\item Safely and, efficiently gaining entry into locked vehicles using lockout tools.
+	\item Excelling in customer service; dealing with returns, soothing angry customers, and always keeping a polite, kind demeanor.
+	\item Lockpicking and, gain of entry.
+	\item Restocking, and shopkeeping.
+	\item Possessing a Oregon Construction Contractors Board certification.
+	\item Possessing a Locksmith License with the city.
+\end{itemize}
+\textbf{Don\textquotesingle{}s Lock} \hfill Medford, OR\\
+\textit{Mobile Locksmith} \hfill July, 2019 - February, 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Driving and, maintaining a company vehicle.
+	\item Responding to AAA (Triple A) calls at all times of the day during \textquotesingle{}On Call\textquotesingle{} days.
+	\item Lockpicking and, gain of entry into customer houses during housecalls.
+	\item Possessing a Locksmith License with the city.
+	\item Possessing a Oregon Construction Contractors Board certification.
+	\item Entrusted with a company gas card.
+	\item Bill customers and, maintain invoices.
+	\item Restocking of parts and, equipment.
+\end{itemize}
+\textbf{UpperCase Computers} \hfill Medford, OR\\
+\textit{IT Technician} \hfill July, 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Mounting and, installation of hardware.
+	\item Installation and, configuring IP cameras to NAS storage systems.
+	\item Installation and, configuration of routers, switches, and POE systems.
+	\item Helpdesk and, troubleshooting.
+	\item Maintaining utmost customer service with residential customers and, commerical clients.
+	\item Remote troubleshooting on customer computers.
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Basic Knowledge of:  & HTML, CSS, Python, SQL                                                 \\
+	Confident in use of: & Microsoft Office Suite, GSuite, Wordpress, Magix Video and Audio Suite \\
+\end{tabular}
+\vspace{2mm}
+
+
+
+
+
+\ 
+\end{document}
